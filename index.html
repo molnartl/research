@@ -36,8 +36,8 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: #fff;
-      border-bottom: 1px solid var(--rule);
+      background: #f0f0f0;
+      border-bottom: 1px solid #d0d0d0;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -45,10 +45,10 @@
       height: 50px;
     }
     .nav-name {
-      color: var(--muted);
+      color: var(--ink);
       text-decoration: none;
       font-size: .8rem;
-      font-weight: 500;
+      font-weight: 700;
       letter-spacing: .06em;
       text-transform: uppercase;
       height: 50px;
@@ -56,13 +56,13 @@
       align-items: center;
       transition: color .15s;
     }
-    .nav-name:hover { color: var(--ink); }
+    .nav-name:hover { color: var(--muted); }
     .nav-links { display: flex; gap: 0; }
     .nav-links a {
-      color: var(--muted);
+      color: var(--ink);
       text-decoration: none;
       font-size: .8rem;
-      font-weight: 500;
+      font-weight: 700;
       letter-spacing: .06em;
       text-transform: uppercase;
       padding: 0 1rem;
@@ -71,7 +71,7 @@
       align-items: center;
       transition: color .15s;
     }
-    .nav-links a:hover { color: var(--ink); }
+    .nav-links a:hover { color: var(--muted); }
 
     /* ── PAGE ── */
     .page {
@@ -139,7 +139,7 @@
       color: var(--ink);
       text-decoration: none;
       font-size: .75rem;
-      font-weight: 500;
+      font-weight: 700;
       letter-spacing: .05em;
       text-transform: uppercase;
       padding: .25rem .75rem;
@@ -165,11 +165,11 @@
 
     /* ── PAPER GROUP HEADING ── */
     .paper-category {
-      font-size: .68rem;
+      font-size: .82rem;
       font-weight: 700;
-      letter-spacing: .13em;
+      letter-spacing: .1em;
       text-transform: uppercase;
-      color: var(--muted);
+      color: var(--ink);
       margin-top: 1.2rem;
       margin-bottom: .8rem;
       padding-bottom: .3rem;
@@ -190,15 +190,15 @@
     .paper-body {}
     .paper-title-link {
       font-size: .95rem;
-      font-weight: 600;
-      color: var(--ink);
+      font-weight: 400;
+      color: #0a3d8f;
       text-decoration: none;
       line-height: 1.4;
     }
-    .paper-title-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+    .paper-title-link:hover { color: #072a6b; text-decoration: underline; text-underline-offset: 2px; }
     .paper-title-plain {
       font-size: .95rem;
-      font-weight: 600;
+      font-weight: 400;
       color: var(--ink);
       line-height: 1.4;
     }
@@ -213,7 +213,7 @@
       margin-top: .15rem;
     }
     .paper-venue strong { font-weight: 600; color: var(--ink); }
-    .journal-name { text-transform: uppercase; font-weight: 400; color: var(--ink); letter-spacing: .06em; font-size: .88em; }
+    .journal-name { font-weight: 700; font-style: normal; color: var(--ink); letter-spacing: normal; font-size: .9rem; text-transform: none; }
     .paper-venue a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
     .paper-venue a:hover { color: var(--muted); }
     .paper-links {
@@ -246,7 +246,7 @@
     }
     .badge.submitted { background: #e3f0fc; color: #1c5d8c; border: 1px solid #b9dcf5; }
     .badge.forthcoming { background: #d4edda; color: #155724; border: 1px solid #a3cfaa; }
-    .badge.rct { background: #d4edda; color: #155724; border: 1px solid #a3cfaa; }
+    .badge.rct { background: #f0f0f0; color: var(--ink); border: 1px solid #ccc; }
 
     /* ── ABSTRACT TOGGLE ── */
     .abstract-btn {
@@ -360,7 +360,7 @@
           <a href="https://economics.ceu.edu/" target="_blank" rel="noopener">Central European University</a>;
           Affiliate at <a href="https://www.iza.org/en/people/affiliates/33472/timea-laura-molnar" target="_blank" rel="noopener">IZA@LISER</a><br>
           PhD in Economics from the
-          <a href="https://economics.ubc.ca/" target="_blank" rel="noopener">University of British Columbia, Vancouver School of Economics</a> (Canada)<br>
+          <a href="https://economics.ubc.ca/" target="_blank" rel="noopener">University of British Columbia</a> (Canada)<br>
           Research in: Labor Economics, Economics of Education, Early Childhood Development<br>
           Teaching: Labor and Education Economics, Intro Microeconomics, Applied Econometrics
         </p>
@@ -427,7 +427,7 @@
 
   <div class="paper">
     <div class="paper-body">
-      <span class="paper-title-plain">When Mathematics Rank Matters: Dynamic Peer Comparisons and the STEM Gender Gap</span>
+      <a class="paper-title-link" href="https://www.dropbox.com/scl/fi/p9v51u2mlzxutskhs29k0/Molnar-Vadle-Hermann-When-Mathematics-Rank-Matters-Dynamic-Peer-Comparisons-and-the-STEM-Gender-Gap.pdf?rlkey=ls2a367byqukii1rs804zi844&dl=0" target="_blank" rel="noopener">When Mathematics Rank Matters: Dynamic Peer Comparisons and the STEM Gender Gap</a>
       <div class="paper-coauthors">with Zsuzsanna Vadle (CEU) and Zolt&aacute;n Hermann (ELTE KRTK and Corvinus U of Budapest)</div>
       <div class="paper-venue">July 2026 &nbsp;<span class="badge submitted">Submitted</span></div>
       <div class="paper-links">
